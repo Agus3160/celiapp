@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         'celiac-light': '#CBB290',
-        'celiac-dark': '#303030'
+        'celiac-dark': '#303030',
+        'test': '#dfsdf'
       },
     },
   },
