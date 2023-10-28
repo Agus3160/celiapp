@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #303030;
+}
+
+hr{
+  border-color: #303030;
+}
