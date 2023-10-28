@@ -2,9 +2,9 @@ import LocalModel from '../../models/locales'
 import Card from '../components/Card'
 
 let listaLocales = [
-  new LocalModel('El pana', 'Un lugar muy especial para comer con los panas', ' ', 3, ''),
-  new LocalModel('Cafus', 'Esto es una descripcion ya se me terminaron las ideas jaja salu2', ' ', 1, ''),
-  new LocalModel('Evita el trigo', 'Que tal unos buenos alimentos que no te hagan mal', ' ', 2, ''),
+  new LocalModel('El pana', 'Un lugar muy especial para comer con los panas','/local.jpg', 3, ''),
+  new LocalModel('Cafus', 'Esto es una descripcion ya se me terminaron las ideas jaja salu2', '/local.jpg', 1, ''),
+  new LocalModel('Evita el trigo', 'Que tal unos buenos alimentos que no te hagan mal', '/local.jpg', 2, ''),
 ]
 
 localStorage.setItem('locales', JSON.stringify(listaLocales))
