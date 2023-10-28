@@ -1,8 +1,9 @@
-function Home() {
+import { Link } from "react-router-dom";
 
+function Home(props) {
     return (
       <>
-      <a href="#">
+      <Link to={`local/${props.id}`}>
         <div className="bg-celiac-light p-4 mb-4 rounded-md">
             <h1 className="font-bold">Local 1</h1>
             <hr className="my-2"></hr>
@@ -14,7 +15,7 @@ function Home() {
                 </div>
             </div>
         </div>
-     </a>
+     </Link>
       </>
     )
   }
