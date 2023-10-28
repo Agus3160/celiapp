@@ -3,7 +3,7 @@ function Home() {
     return (
       <>
       <a href="#">
-        <div className="bg-celiac-light p-4 mb-4 rounded-md">
+        <div className="bg-sand p-4 mb-4 rounded-md">
             <h1 className="font-bold">Local 1</h1>
             <hr className="my-2"></hr>
             <div className="flex items-center gap-2">
@@ -14,7 +14,7 @@ function Home() {
                 </div>
             </div>
         </div>
-     </a>
+    </a>
       </>
     )
   }

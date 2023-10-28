@@ -7,9 +7,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        'celiac-light': '#CBB290',
-        'celiac-dark': '#303030',
-        'test': '#dfsdf'
+        'sand': '#FFEEDB',
+        'pinky': '#FFD8CC',
+        'midnight': '#0A1D37',
+        'peach': '#FFBD9B'
       },
     },
   },

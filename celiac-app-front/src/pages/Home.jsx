@@ -7,7 +7,7 @@ function Home() {
       <div className='mx-2'>
         <div className="flex my-5">
             <input className="flex-1 p-2 w-full" placeholder="Ingrese informacion para buscar..."></input>
-            <button className="bg-celiac-light p-2" >Search</button>
+            <button className="bg-pinky p-2" >Search</button>
         </div>
         
         <div className='flex flex-col'>
