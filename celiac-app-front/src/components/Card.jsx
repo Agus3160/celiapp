@@ -15,7 +15,8 @@ function Home(props) {
                 <img className="w-1/2 rounded-xl" src={localInfo.imagen}></img>
                 <div className="text-sm">
                     <p className="line-clamp-4">{localInfo.descripcion}</p>
-                    <p className="text-blue-700">Ver mas</p>
+                    <p className="text-blue-700 m-auto">ver mas...</p>
+                    <img className="w-3/4 rounded-xl my-1 mx-auto" src="/map_feature.png"></img>
                 </div>
             </div>
         </div>
