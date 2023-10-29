@@ -24,7 +24,6 @@ localStorage.setItem('opiniones', JSON.stringify(listasOpiniones))
 function Home() {
     return (
       <>
-      <div className='mx-2'>
         <div className="flex my-5">
             <input className="flex-1 p-2 w-full" placeholder="Ingrese informacion para buscar..."></input>
             <button className="bg-pinky p-2" >Search</button>
@@ -36,7 +35,6 @@ function Home() {
                 }
             )}
         </div>
-      </div>
       </>
     )
   }

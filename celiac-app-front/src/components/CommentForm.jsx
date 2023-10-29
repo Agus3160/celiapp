@@ -9,7 +9,6 @@ export default function CommentForm(props) {
     })
 
     function onChangeHandler(e){
-        console.log(inputData)
         setInputData({
             ...inputData,
             [e.target.name]:e.target.value

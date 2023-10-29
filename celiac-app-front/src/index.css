@@ -9,3 +9,7 @@ body{
 hr{
   border-color: #303030;
 }
+
+input{
+  outline: none;
+}

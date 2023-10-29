@@ -8,12 +8,14 @@ function App() {
   return (
     <>
       <NavBar />
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/local/:localId" element={<Local />} />
-      </Routes>
-    </BrowserRouter>
+      <div className='sm:w-1/2 sm:m-auto mx-2'>
+        <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/local/:localId" element={<Local />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
     </>
   )
 }

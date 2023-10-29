@@ -22,7 +22,6 @@ export default function Local() {
     <div className='m-2'>
       <Link className='text-blue-700' to={'/'}>{'<<Return'}</Link>  
     </div>
-      
         <div className='mx-2'>
           <div>
             <div className='bg-sand p-4 mb-4 rounded-md'>
@@ -30,22 +29,24 @@ export default function Local() {
                 <h2 className='font-bold'>{localData.nombre}</h2>
                 <div>
                   <p>{`⭐${localData.likes}`}</p>
-                  <a href='#' className='font-sm text-blue-700'>📍Map</a>
+                  <a target="_blank" href='https://www.google.com/maps/place/Escuela+de+Postgrado+-+UNI/@-27.306176,-55.8868837,18.44z/data=!4m6!3m5!1s0x945795deb97da0eb:0xcdf5aeb0f98f6a1f!8m2!3d-27.3064202!4d-55.8870482!16s%2Fg%2F11t1cc7whb?entry=ttu' className='font-sm text-blue-700'>📍Map</a>
                 </div>
               </div>
               <hr className="my-2"></hr>
               <p className=''>{localData.descripcion}</p>
-              <Carousel className='my-2 rounded-md' autoPlay={true} infiniteLoop={true} renderIndicator={false} showThumbs={false} showStatus={false}>
-                <div>
-                  <img src={localData.imagen} />
-                </div>
-                <div>
-                  <img src={localData.imagen} />
-                </div>
-                <div>
-                  <img src={localData.imagen} />
-                </div>
-              </Carousel>
+              <div className='rounded-xl'>
+                <Carousel className='my-2' autoPlay={true} infiniteLoop={true} renderIndicator={false} showThumbs={false} showStatus={false}>
+                  <div>
+                    <img src={localData.imagen} />
+                  </div>
+                  <div>
+                    <img src={localData.imagen} />
+                  </div>
+                  <div>
+                    <img src={localData.imagen} />
+                  </div>
+                </Carousel>
+              </div>
             </div>
           </div>
 
@@ -63,7 +64,6 @@ export default function Local() {
               })}
             </div>
           </div>
-
         </div>
     </>
   )

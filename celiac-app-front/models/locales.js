@@ -8,11 +8,11 @@ class LocalModel {
       this.nombre = nombre;
       this.descripcion = descripcion;
       this.imagen = imagen;
-      this.likes = this.calcularEstrellas(this.id, opinionesList);
+      this.likes = LocalModel.calcularEstrellas(this.id, opinionesList);
       this.opiniones = opinionesList;
     }
 
-    calcularEstrellas(id,lista){
+    static calcularEstrellas(id,lista){
         let suma = 0
         let count = 0
         lista.forEach(o => {
@@ -27,9 +27,6 @@ class LocalModel {
           return 0
         }  
     }
-
-    
-
 }
 
 export default LocalModel
